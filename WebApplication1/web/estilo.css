@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 22 de jul de 2022, 08:03:37
+    Author     : isacc
+*/
+
+body{
+    
+    background: #f9eac3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h1{
+    color: teal;
+}
+
+p{font-weight: bold;}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+}
+
+label{
+    float:left;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"], input[type="email"] {
+    
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+   
+}
+
+br{
+    clear: both;
+}
+
+#submit{
+    margin-left: 0.5em;
+}
